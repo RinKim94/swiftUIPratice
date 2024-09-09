@@ -14,6 +14,7 @@
 		9F5B18E32C8B6586007CE48D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B18E22C8B6586007CE48D /* ContentView.swift */; };
 		9F5B18E52C8B6587007CE48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B18E42C8B6587007CE48D /* Assets.xcassets */; };
 		9F5B18E82C8B6587007CE48D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B18E72C8B6587007CE48D /* Preview Assets.xcassets */; };
+		9FA587A32C8E839900CC9CE3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA587A22C8E839900CC9CE3 /* FavoriteButton.swift */; };
 		9FBBD9CD2C8C127500D93C91 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBD9CC2C8C127500D93C91 /* CircleImage.swift */; };
 		9FBBD9CF2C8C135600D93C91 /*  MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBD9CE2C8C135600D93C91 /*  MapView.swift */; };
 		9FBBD9D12C8C1BE400D93C91 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBD9D02C8C1BE400D93C91 /* landmarkData.json */; };
@@ -30,6 +31,7 @@
 		9F5B18E22C8B6586007CE48D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F5B18E42C8B6587007CE48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F5B18E72C8B6587007CE48D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FA587A22C8E839900CC9CE3 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		9FBBD9CC2C8C127500D93C91 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		9FBBD9CE2C8C135600D93C91 /*  MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MapView.swift"; sourceTree = "<group>"; };
 		9FBBD9D02C8C1BE400D93C91 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -85,6 +87,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9FA587A42C8E848000CC9CE3 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4498472C8C712F00A61392 /* LandmarkRow.swift */,
+				9F4498492C8C73CA00A61392 /* LandmarkLists.swift */,
+				9F44984B2C8C75B600A61392 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		9FA587A52C8E849700CC9CE3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9FA587A22C8E839900CC9CE3 /* FavoriteButton.swift */,
+				9FBBD9CE2C8C135600D93C91 /*  MapView.swift */,
+				9FBBD9CC2C8C127500D93C91 /* CircleImage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		9FBBD9D62C8C6CE700D93C91 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				9F5B18E22C8B6586007CE48D /* ContentView.swift */,
-				9F4498472C8C712F00A61392 /* LandmarkRow.swift */,
-				9F4498492C8C73CA00A61392 /* LandmarkLists.swift */,
-				9F44984B2C8C75B600A61392 /* LandmarkDetail.swift */,
-				9FBBD9CE2C8C135600D93C91 /*  MapView.swift */,
-				9FBBD9CC2C8C127500D93C91 /* CircleImage.swift */,
+				9FA587A42C8E848000CC9CE3 /* Landmarks */,
+				9FA587A52C8E849700CC9CE3 /* Helper */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +208,7 @@
 				9F5B18E32C8B6586007CE48D /* ContentView.swift in Sources */,
 				9F5B18E12C8B6586007CE48D /* swiftUITutorialApp.swift in Sources */,
 				9FBBD9CF2C8C135600D93C91 /*  MapView.swift in Sources */,
+				9FA587A32C8E839900CC9CE3 /* FavoriteButton.swift in Sources */,
 				9FBBD9CD2C8C127500D93C91 /* CircleImage.swift in Sources */,
 				9F44984C2C8C75B600A61392 /* LandmarkDetail.swift in Sources */,
 				9FBBD9D32C8C1C0100D93C91 /* Landmark.swift in Sources */,
